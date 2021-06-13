@@ -1,8 +1,8 @@
 {
-    "name": "mohamedgaber-intake40/filter-package",
+    "name": "eloquent-filter",
     "description": "An easy way to filter Queries Laravel Eloquent.",
     "license": "MIT",
-    "homepage": "https://github.com/",
+    "homepage": "https://github.com/mohamedgaber-intake40/eloquent-filter",
     "authors": [
         {
             "name": "Mohamed Gaber",
