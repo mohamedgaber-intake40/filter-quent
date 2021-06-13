@@ -1,0 +1,29 @@
+{
+    "name": "mohamedgaber-intake40/filter-package",
+    "description": "An easy way to filter Queries Laravel Eloquent.",
+    "license": "MIT",
+    "homepage": "https://github.com/",
+    "authors": [
+        {
+            "name": "Mohamed Gaber",
+            "email": "gaberm514@gmail.com"
+        },
+        {
+            "name": "Osama Eltayar",
+            "email": "osamaeltiar@yahoo.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Filter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Filter\\Providers\\FilterServiceProvider"
+            ]
+        }
+    }
+}
