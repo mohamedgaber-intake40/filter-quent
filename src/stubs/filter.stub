@@ -1,0 +1,13 @@
+<?php
+
+
+namespace App\Filters;
+
+
+use Filter\Filter;
+
+class DummyClass extends Filter
+{
+
+
+}
