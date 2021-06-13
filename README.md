@@ -6,7 +6,7 @@ An easy way to filter Queries Laravel Eloquent.
 # Install (Laravel)
 
 ```
-$ composer require mohamedgaber-intake40/eloquent-filter
+$ composer require mohamedgaber-intake40/filter-quent
 ```
 
 The Package is auto discovered , but you can register Service Provider in config/app.php
