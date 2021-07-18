@@ -24,7 +24,7 @@ trait HasFilter
 
     protected function getModelClassName()
     {
-        $path = explode('\\', __CLASS__);
+        $path = explode('\\', static::class);
         return   array_pop($path) . 'Filter';
     }
 
