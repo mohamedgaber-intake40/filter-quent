@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Filter;
+namespace Filter\Traits;
 
 
 use Illuminate\Database\Eloquent\Builder;
