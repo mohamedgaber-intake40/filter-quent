@@ -4,9 +4,9 @@
 namespace Filter\Traits;
 
 
-trait HasSort
+trait HasSortable
 {
-	public function scopeSort($q)
+	public function scopeSortable($q)
 	{
         $this->checkSortableExists();
 
@@ -18,7 +18,7 @@ trait HasSort
 
     private function checkSortableExists()
     {
-        if(!isset($this->selectable))
+        if(!isset($this->sortable))
         {
             throw new \Exception('You need to add sortable array to the model');
         }
