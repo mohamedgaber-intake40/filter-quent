@@ -43,7 +43,7 @@ abstract class Filter
             $matches = [];
             if(preg_match('/^filter([\S]+)$/i', $method->getName(), $matches)){
                 $property = $collection->{Str::snake($matches[ 1 ])};
-                if($property){
+                if(isset($property)){
                     $this->{$method->getName()}($property);
                 }
             }
