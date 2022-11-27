@@ -15,8 +15,14 @@ abstract class Filter
      */
     protected $query;
 
+    /**
+     * @var FilterCollection
+     */
+    protected $data;
+
     protected function __construct($query, FilterCollection $data)
     {
+        $this->data = $data;
         $this->query = $query;
         $this->filter($data);
     }
